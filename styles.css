@@ -1,3 +1,43 @@
 body {
     margin: 0;
 }
+a{
+    text-decoration: none;
+}
+.border-radius {
+    border-radius: 12px;
+    padding: 4px 14px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 50px;
+    border-bottom: solid 1px #8e8e94;
+
+}
+header .logo_header {
+    width: auto;
+    height: 22px;
+  
+}
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+    font-size: 18px;
+}
+header nav ul li a {
+    color: black;
+    font-weight: bold;
+}
+header nav ul .link_connexion {
+    background-color: #fff;
+    color: #2d96c8;
+    border-color: #2d96c8;
+}
+header nav ul .link_inscription {
+    background-color: #2d96c8 ;
+    color: #fff;
+    border-width: 1px;
+}
+
