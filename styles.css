@@ -40,4 +40,39 @@ header nav ul .link_inscription {
     color: #fff;
     border-width: 1px;
 }
+/******************************************************************/
+.offre {
+    display: flex;
+    padding: 0 10px 0 12em;
+    justify-content: center;
+}
+.offre .offre_contenu {
+    flex-direction: column;
+}
+.offre .offre_contenu .titre_offre {
+    font-size: 34px;
+    margin-top: 30px;
+}
+.offre .offre_contenu .titre_offre + div {
+    color: #ef5466;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.offre .offre_contenu .button_offre .button_premium {
+    color: #fff;
+    background-color: #ef5466;
+    border-color: #ef5466;
+    margin-right: 20px;
+    border-width: 1px;
+}
+.offre .offre_contenu .button_offre .button_gratuit {
+    background-color: #fff;
+    border-width: 2px;
+}
+.offre .offre_img img {
+    height: 350px;
+    width: auto;
+    margin-left: 20px;
+}
 
