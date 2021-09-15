@@ -7,6 +7,10 @@ a{
 .border-radius {
     border-radius: 12px;
     padding: 4px 14px;
+    cursor: pointer;
+}
+.border-radius:hover {
+    transform: scale(1.06);
 }
 header {
     display: flex;
@@ -45,6 +49,8 @@ header nav ul .link_inscription {
     display: flex;
     padding: 0 10px 0 12em;
     justify-content: center;
+    height: 250px;
+    overflow-y: hidden
 }
 .offre .offre_contenu {
     flex-direction: column;
@@ -73,6 +79,9 @@ header nav ul .link_inscription {
 .offre .offre_img img {
     height: 350px;
     width: auto;
-    margin-left: 20px;
+    margin-left: 50px;
+    object-fit:cover;
 }
+/***************************************************************************/
+
 
