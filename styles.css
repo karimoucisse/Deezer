@@ -231,7 +231,22 @@ header nav ul .link_inscription {
 .contenu_engagement {
     width: 80%;
     font-size: 14px;
-    margin: 30px auto 20px auto;
+    margin: 30px auto 25px auto;
+
+}
+/*******************************************************************/
+.bande_abonnement {
+    flex-direction: column;
+}
+.bande_abonnement .contenu_bande{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px   ;
+
+
+
 
 }
 
