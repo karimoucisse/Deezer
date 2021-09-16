@@ -78,8 +78,8 @@ header nav ul .link_inscription {
     display: flex;
     padding: 0 10px 0 12em;
     justify-content: center;
-    height: 250px;
-    overflow-y: hidden
+    /*height: 250px;
+    overflow-y: hidden*/
 }
 .offre .offre_contenu {
     flex-direction: column;
@@ -244,9 +244,36 @@ header nav ul .link_inscription {
     justify-content: space-between;
     align-items: center;
     padding: 20px 150px   ;
-
-
-
-
 }
+/**************************************************************************************************************************/
+footer {
+    padding: 40px 60px;
+    flex-direction: column;
+    background-color: black;
+    color: #fff;
+}
+footer .logo_store {
+    text-align: center;
+}
+footer .logo_store i {
+    font-size: 34px;
+    margin-left: 20px;
+}
+footer .contenu_footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+footer .contenu_footer .colone_footer div{
+    margin-bottom: 20px;
+}
+footer .row_footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+footer .row_footer .logo_reseaux i{
+    margin-right: 20px;
+}
+/***********************************************************************************/
 
