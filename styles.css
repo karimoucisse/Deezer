@@ -12,6 +12,9 @@ a{
 .border-radius:hover {
     transform: scale(1.06);
 }
+.color_white {
+    color: #fff;
+}
 .color_blue {
     color: #2d96c8;
 }
@@ -175,6 +178,7 @@ header nav ul .link_inscription {
     flex-direction: column;
     
 }
+
 .prix .titre_prix {
     text-align: center;
 }
@@ -194,22 +198,40 @@ header nav ul .link_inscription {
     justify-content: center;
 }
 .prix .contenu_prix .prix_deezer {
-    border : solid 2px black;
-    height:370px;
-    width: 220px;
+    /*border : solid 2px black;*/
+    /*height:370px;
+    width: 220px;*/
     margin:5px 5px 0 0;
     text-align: center;
-    padding-top: 25px;
+    padding: 25px;
     box-shadow: 4px 4px 8px #8e8e94;
+    
 }
 .prix .contenu_prix .prix_deezer .titre_prix_deezer {
     font-size: 25px;
     margin-bottom: 25px;
     font-weight: bold;
 }
+.prix .contenu_prix .prix_deezer .titre_prix_deezer + div {
+    margin-bottom: 25px;
+}
 .prix .contenu_prix .prix_deezer .titre_prix_deezer + div span {
     font-size: 22px;
     font-weight: bold;
+
+}
+.prix .contenu_prix .prix_deezer button {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.prix .contenu_prix .prix_deezer .btn_gratuit{
+    margin-top: 40px;
+}
+/****************************************************************/
+.contenu_engagement {
+    width: 80%;
+    font-size: 14px;
+    margin: 30px auto 20px auto;
 
 }
 
