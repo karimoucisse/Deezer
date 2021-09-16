@@ -73,6 +73,9 @@ header nav ul .link_inscription {
     color: #fff;
     border-width: 1px;
 }
+header .logo_nav {
+    display: none;
+}
 /******************************************************************/
 .offre {
     display: flex;
@@ -187,12 +190,12 @@ header nav ul .link_inscription {
     font-weight: bold;
     margin-bottom: 25px;
 }
-.prix .titre_prix .titre_contenu +div {
+/*.prix .titre_prix .titre_contenu +div {
     color: #8e8e94;
 }
 .prix .titre_prix .logo_prix i {
     color: #2d96c8;
-}
+}*/
 .prix .contenu_prix {
     display: flex;
     justify-content: center;
@@ -227,6 +230,16 @@ header nav ul .link_inscription {
 .prix .contenu_prix .prix_deezer .btn_gratuit{
     margin-top: 40px;
 }
+.parent_recommande {
+    position: relative;
+
+}
+.recommande {
+    position: absolute;
+    top : -34px;
+    left:65px;
+}
+
 /****************************************************************/
 .contenu_engagement {
     width: 80%;
@@ -276,4 +289,82 @@ footer .row_footer .logo_reseaux i{
     margin-right: 20px;
 }
 /***********************************************************************************/
+@media screen and (max-width: 930px) {
+    header {
+        justify-content: space-around;
+        font-size: 40px;
+    }
+    header nav {
+        display: none;
+    }
+
+    header .logo_header {
+        
+    }
+    header .logo_nav {
+        display: flex;
+
+    }
+    /*******************************************************************************************/
+    .offre {
+        flex-direction: column;
+    }
+    .presentation {
+        flex-direction: column;
+        /*width: 70%;
+        margin: auto;*/
+    }
+    .presentation img {
+        display: none;
+    }
+    .presentation .ensemble_contenu {
+        display: flex;
+        justify-content: center;
+    }
+    .presentation .ensemble_contenu .titre_présentation {
+        align-self: center;
+    }
+    .presentation .ensemble_contenu .ensemble_presentation {
+        flex-direction: column;
+        align-items: center;
+    }
+    /*****************************************************************************************************/
+    .bande_rouge {
+        flex-direction: column;
+        align-items: center;
+    }
+    /************************************************************************************************************/
+    .prix .contenu_prix  {
+        flex-direction: column;
+    }
+    .prix .contenu_prix .prix_deezer {
+        margin-bottom: 30px;
+    }
+    /***********************************************************************************************************/
+    .bande_abonnement .contenu_bande {
+        flex-direction: row;
+    }
+
+    /**********************************************************************/
+    footer .contenu_footer {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    footer .contenu_footer .colone_footer {
+        justify-content: center;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+    }
+/*************************************************************************************************************/
 
