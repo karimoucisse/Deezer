@@ -12,6 +12,32 @@ a{
 .border-radius:hover {
     transform: scale(1.06);
 }
+.color_blue {
+    color: #2d96c8;
+}
+.color_red{
+    color: #ef5466;
+    }
+.color_grey_light {
+    color: #f9f9f9;
+}
+.color_grey {
+    color:#8e8e94;
+}
+.back_blue {
+    background-color: #2d96c8;
+    color: #fff;
+}
+.back_red{
+    background-color: #ef5466;
+    color: #fff;
+    }
+.back_grey_light {
+    background-color: #f9f9f9;
+}
+.back_grey {
+    background-color:#8e8e94;
+}
 header {
     display: flex;
     align-items: center;
@@ -134,12 +160,56 @@ header nav ul .link_inscription {
     
 }
 .bande_rouge .contenu_bande_rouge {
-    width: 300px;
+    width: 360px;
     color: #fff;
 }
 .bande_rouge .contenu_bande_rouge .titre_bande_rouge {
     font-size: 32px;
     margin-bottom: 20px;
 }
+/*************************************************************************************/
+.prix {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+    flex-direction: column;
+    
+}
+.prix .titre_prix {
+    text-align: center;
+}
+.prix .titre_prix .titre_contenu {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.prix .titre_prix .titre_contenu +div {
+    color: #8e8e94;
+}
+.prix .titre_prix .logo_prix i {
+    color: #2d96c8;
+}
+.prix .contenu_prix {
+    display: flex;
+    justify-content: center;
+}
+.prix .contenu_prix .prix_deezer {
+    border : solid 2px black;
+    height:370px;
+    width: 220px;
+    margin:5px 5px 0 0;
+    text-align: center;
+    padding-top: 25px;
+    box-shadow: 4px 4px 8px #8e8e94;
+}
+.prix .contenu_prix .prix_deezer .titre_prix_deezer {
+    font-size: 25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.prix .contenu_prix .prix_deezer .titre_prix_deezer + div span {
+    font-size: 22px;
+    font-weight: bold;
 
+}
 
