@@ -17,7 +17,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 1px 50px;
-    border-bottom: solid 1px #8e8e94;
+    border-bottom: solid 3px #f9f9f9;
 
 }
 header .logo_header {
@@ -56,12 +56,12 @@ header nav ul .link_inscription {
     flex-direction: column;
 }
 .offre .offre_contenu .titre_offre {
-    font-size: 34px;
+    font-size: 38px;
     margin-top: 30px;
 }
 .offre .offre_contenu .titre_offre + div {
     color: #ef5466;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -77,11 +77,69 @@ header nav ul .link_inscription {
     border-width: 2px;
 }
 .offre .offre_img img {
-    height: 350px;
+    height: 370px;
     width: auto;
     margin-left: 50px;
-    object-fit:cover;
+    /*object-fit:cover;*/
 }
 /***************************************************************************/
+.presentation {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+.presentation img {
+    height: 430px;
+    width: auto;
+    /*margin-right: 25px;*/
+}
+.presentation .ensemble_contenu {
+    flex-direction: column;
+}
+.presentation .ensemble_contenu .ensemble_presentation{
+    display: flex;
+    margin-right: ;
+}
+.presentation .ensemble_contenu .contenu_presentation {
+    width: 330px;
+    margin-left:25px;
+}
+.presentation .ensemble_contenu .titre_présentation {
+    font-size: 34px;
+    margin-bottom: 20px ;
+    margin-left: 25px;
+    font-weight: bold;
+}
+.presentation .ensemble_contenu .sous_titre_presentation {
+    font-size: 20px;
+    font-weight: 600;
+}
+/****************************************************************************************************************/
+.bande_rouge {
+    padding: 20px 0;
+    justify-content: center;
+    background-color: #ef5466;
+    display: flex;
+}
+.bande_rouge .logo_bande_rouge {
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+}
+.bande_rouge .logo_bande_rouge i {
+    font-size: 34px;
+    color: #fff;
+    margin-left: 20px;
+    
+}
+.bande_rouge .contenu_bande_rouge {
+    width: 300px;
+    color: #fff;
+}
+.bande_rouge .contenu_bande_rouge .titre_bande_rouge {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
 
 
