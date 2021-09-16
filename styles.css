@@ -298,9 +298,7 @@ footer .row_footer .logo_reseaux i{
         display: none;
     }
 
-    header .logo_header {
-        
-    }
+
     header .logo_nav {
         display: flex;
 
@@ -308,7 +306,15 @@ footer .row_footer .logo_reseaux i{
     /*******************************************************************************************/
     .offre {
         flex-direction: column;
+        padding: 0;
+        align-items: center;
     }
+    .offre .offre_img img{
+        margin: 0;
+
+    }
+    /***************************************************************************************************************/
+
     .presentation {
         flex-direction: column;
         /*width: 70%;
@@ -333,26 +339,49 @@ footer .row_footer .logo_reseaux i{
         flex-direction: column;
         align-items: center;
     }
+    .bande_rouge div:nth-child(2) {
+        order: -1;
+    }
+    .bande_rouge .logo_bande_rouge {
+        margin-top: 20px;
+    }
     /************************************************************************************************************/
     .prix .contenu_prix  {
         flex-direction: column;
     }
     .prix .contenu_prix .prix_deezer {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+    }
+    .prix .contenu_prix .prix_deezer:nth-child(1) {
+        margin-bottom: 50px;
     }
     /***********************************************************************************************************/
     .bande_abonnement .contenu_bande {
-        flex-direction: row;
+        flex-direction: column;
+    }
+    .bande_abonnement .contenu_bande .border-radius {
+        margin-top: 10px;
     }
 
     /**********************************************************************/
     footer .contenu_footer {
         flex-direction: column;
-        align-items: center;
+        padding: 50px;
+        /*align-items: center;*/
         
     }
     footer .contenu_footer .colone_footer {
         justify-content: center;
+    }
+    footer .row_footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .row_footer div {
+        margin-bottom: 20px;
+    }
+    footer .row_footer div:nth-child(2) {
+        order: -1;
     }
     
 
