@@ -1,5 +1,10 @@
+@font-face {
+    font-family: "poppins";
+    src: url("fonts/poppins.ttf");
+}
 body {
     margin: 0;
+    font-family: poppins;
 }
 a{
     text-decoration: none;
@@ -122,7 +127,7 @@ header .logo_nav {
     background-color: #f9f9f9;
 }
 .presentation img {
-    height: 430px;
+    height: 630px;
     width: auto;
     /*margin-right: 25px;*/
 }
@@ -138,13 +143,13 @@ header .logo_nav {
     margin-left:25px;
 }
 .presentation .ensemble_contenu .titre_présentation {
-    font-size: 34px;
+    font-size: 25px;
     margin-bottom: 20px ;
     margin-left: 25px;
     font-weight: bold;
 }
 .presentation .ensemble_contenu .sous_titre_presentation {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
 }
 /****************************************************************************************************************/
